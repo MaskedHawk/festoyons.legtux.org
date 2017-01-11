@@ -1,0 +1,147 @@
+body {
+	background-color: #e1e1e1;
+	font-family: Ubuntu, sans-serif;
+	/*font-family: Nyala, Georgia, serif;*/
+	font-size: 14px;
+}
+
+iframe {
+    width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'MedievalSharp', cursive;
+    margin: 0;
+}
+
+nav {
+	background: url(http://www.aigles-chateau-thierry.com/wordpress/wp-content/themes/shardofsun/img/bantext.gif);
+	color: #fff;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 18px;
+	height: 50px;
+	line-height: 50px;
+	/*text-align: center;*/
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 10px;
+
+}
+
+label {
+	font-family: 'MedievalSharp', cursive;
+	font-size: 16px;
+}
+
+a {
+	color: #e5005a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c1c1c1;
+	text-decoration: none;
+}
+
+li a {
+	color: #fff;
+    padding: 20px;
+}
+
+span {
+    padding: 0px 10px;
+}
+
+footer {
+	/*color: #fff;*/
+	/*background-color: #000;*/
+	font-family: 'MedievalSharp', cursive;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1, h2, p {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.container {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 20px 4px;
+    padding: 0px!important;
+}
+
+.sns {
+	float: right;
+	margin-top: 40px;
+}
+
+.sns img {
+	margin-bottom: 10px;
+}
+
+.sns li {
+    display: block;
+}
+
+
+.carousel {
+    margin: 0 auto;
+    width: 100%
+}
+
+.pic {
+	padding-top: 20px;
+}
+form.form-horizontal {
+	padding: 8%;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #9f1f1f;
+	border-color: #9f1f1f;
+	font-family: 'MedievalSharp', cursive;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #b82424;
+	border-color: #b82424;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media screen and (max-width: 640px) {
+
+	body { text-align: justify; }
+	h1, h2 {
+		text-align: center;
+	}
+	iframe {
+    	width: 100%;
+	}
+	li a {
+		padding: 5px;
+	}
+	span.glyphicon {
+    	display: none;
+	}
+
+	#pricing-table #most-popular {
+    	width: 100%;
+    }
+
+	form.form-horizontal {
+		padding: 8%;
+	}
+}
+.form-group.required label:after {
+	content:"*";color:red;
+}
